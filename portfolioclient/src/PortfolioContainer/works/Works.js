@@ -1,7 +1,7 @@
 import React from 'react'
 import './Works.css'
 import Worktemplate from './worktemplate.js'
-
+import { Link } from 'react-router-dom'
 
 
 export default function Works() {
@@ -89,9 +89,9 @@ export default function Works() {
 
 
 <div className='works-button-section'>
-<a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=mahdi.kaaniche1998@gmail.com" className='works-button'>
+<a href='#allworks' className='works-button'>
+   <Link to="allworks"> More projects</Link>
     
-    More projects
     </a>
     </div>
 
